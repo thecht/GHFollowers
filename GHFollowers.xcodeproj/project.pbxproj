@@ -13,6 +13,7 @@
 		91ABCA3F23C906F300B07584 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91ABCA3D23C906F300B07584 /* LaunchScreen.storyboard */; };
 		91ABCA4723C924EA00B07584 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABCA4623C924EA00B07584 /* SearchVC.swift */; };
 		91ABCA4923C9252400B07584 /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABCA4823C9252400B07584 /* FavoritesListVC.swift */; };
+		91ABCA4B23C92E6F00B07584 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 91ABCA4A23C92E6F00B07584 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		91ABCA4023C906F300B07584 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91ABCA4623C924EA00B07584 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		91ABCA4823C9252400B07584 /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		91ABCA4A23C92E6F00B07584 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		91ABCA2623C906F100B07584 = {
 			isa = PBXGroup;
 			children = (
+				91ABCA4A23C92E6F00B07584 /* .gitignore */,
 				91ABCA3123C906F100B07584 /* GHFollowers */,
 				91ABCA3023C906F100B07584 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91ABCA3F23C906F300B07584 /* LaunchScreen.storyboard in Resources */,
+				91ABCA4B23C92E6F00B07584 /* .gitignore in Resources */,
 				91ABCA3C23C906F300B07584 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
