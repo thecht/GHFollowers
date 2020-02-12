@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9125CB3323F4423800A9BBC7 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125CB3223F4423800A9BBC7 /* Follower.swift */; };
+		9125CB3523F443CF00A9BBC7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125CB3423F443CF00A9BBC7 /* User.swift */; };
 		918C76DB23CCE6F20066E057 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C76DA23CCE6F20066E057 /* GFButton.swift */; };
 		918C76DD23CCEACD0066E057 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C76DC23CCEACD0066E057 /* GFTextField.swift */; };
 		918C76DF23CD1B130066E057 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C76DE23CD1B130066E057 /* FollowerListVC.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9125CB3223F4423800A9BBC7 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
+		9125CB3423F443CF00A9BBC7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		918C76DA23CCE6F20066E057 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		918C76DC23CCEACD0066E057 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		918C76DE23CD1B130066E057 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
@@ -55,6 +59,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9125CB3123F4422200A9BBC7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9125CB3223F4423800A9BBC7 /* Follower.swift */,
+				9125CB3423F443CF00A9BBC7 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		91ABCA2623C906F100B07584 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +88,7 @@
 		91ABCA3123C906F100B07584 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				9125CB3123F4422200A9BBC7 /* Model */,
 				91D4329823F33A3E00FD6455 /* Screens */,
 				91D4329723F33A3500FD6455 /* Custom Views */,
 				91D4329923F33A4300FD6455 /* Support */,
@@ -203,7 +217,9 @@
 				918C76E123CD1FAD0066E057 /* StringValidationExtensions.swift in Sources */,
 				918C76DB23CCE6F20066E057 /* GFButton.swift in Sources */,
 				91ABCA4723C924EA00B07584 /* SearchVC.swift in Sources */,
+				9125CB3523F443CF00A9BBC7 /* User.swift in Sources */,
 				91D4329323F30ADD00FD6455 /* GFAlertVC.swift in Sources */,
+				9125CB3323F4423800A9BBC7 /* Follower.swift in Sources */,
 				918C76DF23CD1B130066E057 /* FollowerListVC.swift in Sources */,
 				91D4328F23F3086200FD6455 /* GFTitleLabel.swift in Sources */,
 				91ABCA3323C906F100B07584 /* AppDelegate.swift in Sources */,
