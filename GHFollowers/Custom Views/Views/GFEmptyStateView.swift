@@ -29,7 +29,6 @@ class GFEmptyStateView: UIView {
     }
     
     private func configure() {
-        print("configure called")
         addSubview(messageLabel)
         addSubview(logoImageView)
         
