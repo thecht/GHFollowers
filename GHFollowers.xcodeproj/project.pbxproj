@@ -95,6 +95,54 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		918ABBF223FB102B00DF46DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		918ABBF323FB103700DF46DE /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				918C76DA23CCE6F20066E057 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		918ABBF423FB104200DF46DE /* Textfields */ = {
+			isa = PBXGroup;
+			children = (
+				918C76DC23CCEACD0066E057 /* GFTextField.swift */,
+			);
+			path = Textfields;
+			sourceTree = "<group>";
+		};
+		918ABBF523FB104A00DF46DE /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				91D2D8D923F59EB700B12655 /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		918ABBF623FB105300DF46DE /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				91D4329223F30ADD00FD6455 /* GFAlertVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		918ABBF723FB106A00DF46DE /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				91D4328E23F3086200FD6455 /* GFTitleLabel.swift */,
+				91D4329023F30A1100FD6455 /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
 		91ABCA2623C906F100B07584 = {
 			isa = PBXGroup;
 			children = (
@@ -147,13 +195,13 @@
 		91D4329723F33A3500FD6455 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				918ABBF723FB106A00DF46DE /* Labels */,
+				918ABBF623FB105300DF46DE /* ViewControllers */,
+				918ABBF523FB104A00DF46DE /* ImageViews */,
+				918ABBF423FB104200DF46DE /* Textfields */,
+				918ABBF323FB103700DF46DE /* Buttons */,
+				918ABBF223FB102B00DF46DE /* Views */,
 				91D2D8D623F59E0E00B12655 /* Cells */,
-				918C76DA23CCE6F20066E057 /* GFButton.swift */,
-				918C76DC23CCEACD0066E057 /* GFTextField.swift */,
-				91D4328E23F3086200FD6455 /* GFTitleLabel.swift */,
-				91D4329023F30A1100FD6455 /* GFBodyLabel.swift */,
-				91D4329223F30ADD00FD6455 /* GFAlertVC.swift */,
-				91D2D8D923F59EB700B12655 /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
