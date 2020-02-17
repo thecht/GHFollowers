@@ -12,6 +12,7 @@
 		9125CB3823F46EE200A9BBC7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125CB3723F46EE200A9BBC7 /* NetworkManager.swift */; };
 		9125CB3B23F4953900A9BBC7 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9125CB3A23F4953900A9BBC7 /* ErrorMessage.swift */; };
 		918ABBF123FAE33900DF46DE /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918ABBF023FAE33900DF46DE /* UIHelper.swift */; };
+		918ABBF923FB10AA00DF46DE /* GFEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918ABBF823FB10AA00DF46DE /* GFEmptyStateView.swift */; };
 		918C76DB23CCE6F20066E057 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C76DA23CCE6F20066E057 /* GFButton.swift */; };
 		918C76DD23CCEACD0066E057 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C76DC23CCEACD0066E057 /* GFTextField.swift */; };
 		918C76DF23CD1B130066E057 /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C76DE23CD1B130066E057 /* FollowerListVC.swift */; };
@@ -37,6 +38,7 @@
 		9125CB3723F46EE200A9BBC7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		9125CB3A23F4953900A9BBC7 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		918ABBF023FAE33900DF46DE /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		918ABBF823FB10AA00DF46DE /* GFEmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFEmptyStateView.swift; sourceTree = "<group>"; };
 		918C76DA23CCE6F20066E057 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		918C76DC23CCEACD0066E057 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		918C76DE23CD1B130066E057 /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		918ABBF223FB102B00DF46DE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				918ABBF823FB10AA00DF46DE /* GFEmptyStateView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,12 +167,12 @@
 			isa = PBXGroup;
 			children = (
 				9125CB3923F4952800A9BBC7 /* Utilities */,
+				91D4329623F33A2B00FD6455 /* Extensions */,
 				9125CB3623F463AA00A9BBC7 /* Manager */,
 				9125CB3123F4422200A9BBC7 /* Model */,
 				91D4329823F33A3E00FD6455 /* Screens */,
 				91D4329723F33A3500FD6455 /* Custom Views */,
 				91D4329923F33A4300FD6455 /* Support */,
-				91D4329623F33A2B00FD6455 /* Extensions */,
 				91ABCA4023C906F300B07584 /* Info.plist */,
 			);
 			path = GHFollowers;
@@ -303,6 +306,7 @@
 				91D4329523F31F5700FD6455 /* UIViewController+Ext.swift in Sources */,
 				918C76E123CD1FAD0066E057 /* StringValidationExtensions.swift in Sources */,
 				918C76DB23CCE6F20066E057 /* GFButton.swift in Sources */,
+				918ABBF923FB10AA00DF46DE /* GFEmptyStateView.swift in Sources */,
 				91ABCA4723C924EA00B07584 /* SearchVC.swift in Sources */,
 				9125CB3523F443CF00A9BBC7 /* User.swift in Sources */,
 				91D2D8D823F59E3400B12655 /* FollowerCell.swift in Sources */,
