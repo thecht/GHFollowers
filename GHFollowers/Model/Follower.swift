@@ -8,7 +8,14 @@
 
 import Foundation
 
-struct Follower: Codable {
+struct Follower: Codable, Hashable {
     var login: String
     var avatarUrl: String
+    
+    /* Trey's Notes
+     For partial model hashing, see:
+     func hash(into hasher: inout Hasher) {
+        hasher.combine(login)
+     }
+     */
 }
