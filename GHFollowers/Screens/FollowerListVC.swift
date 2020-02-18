@@ -26,11 +26,11 @@ class FollowerListVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configureViewController()
+        configureSearchController()
         configureCollectionView()
         configureDataSource()
-        getFollowers(username: username, page: page)
         
-        configureSearchController()
+        getFollowers(username: username, page: page)
     }
     
     override func viewWillAppear(_ animated: Bool) {
