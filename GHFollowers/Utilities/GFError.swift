@@ -1,8 +1,8 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
-//  Created by Theodore Hecht on 2/12/20.
+//  Created by Theodore Hecht on 2/18/20.
 //  Copyright © 2020 Theodore Hecht. All rights reserved.
 //
 
