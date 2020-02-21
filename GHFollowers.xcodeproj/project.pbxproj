@@ -34,6 +34,7 @@
 		91D4329123F30A1100FD6455 /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4329023F30A1100FD6455 /* GFBodyLabel.swift */; };
 		91D4329323F30ADD00FD6455 /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4329223F30ADD00FD6455 /* GFAlertVC.swift */; };
 		91D4329523F31F5700FD6455 /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D4329423F31F5700FD6455 /* UIViewController+Ext.swift */; };
+		91F3FA0C23FF3734000B87A4 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F3FA0B23FF3734000B87A4 /* GFItemInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		91D4329023F30A1100FD6455 /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		91D4329223F30ADD00FD6455 /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		91D4329423F31F5700FD6455 /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		91F3FA0B23FF3734000B87A4 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				918ABBF823FB10AA00DF46DE /* GFEmptyStateView.swift */,
+				91F3FA0B23FF3734000B87A4 /* GFItemInfoView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -335,6 +338,7 @@
 				918ABBF123FAE33900DF46DE /* UIHelper.swift in Sources */,
 				9125CB3823F46EE200A9BBC7 /* NetworkManager.swift in Sources */,
 				91ABCA3523C906F100B07584 /* SceneDelegate.swift in Sources */,
+				91F3FA0C23FF3734000B87A4 /* GFItemInfoView.swift in Sources */,
 				91D4329123F30A1100FD6455 /* GFBodyLabel.swift in Sources */,
 				9108568523FDE9FF00CE16DA /* Constants.swift in Sources */,
 			);
