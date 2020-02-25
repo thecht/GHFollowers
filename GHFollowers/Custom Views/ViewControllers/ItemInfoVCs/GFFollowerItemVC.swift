@@ -8,7 +8,13 @@
 
 import UIKit
 
+protocol GFFollowerItemVCDelegate: class {
+    func didTapGetFollowers(for user: User)
+}
+
 class GFFollowerItemVC: GFItemInfoVC {
+    
+    weak var delegate: GFFollowerItemVCDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +28,6 @@ class GFFollowerItemVC: GFItemInfoVC {
     }
     
     override func actionButtonTapped() {
-        delegate.didTapGetFollowers(for: user)
+        delegate?.didTapGetFollowers(for: user)
     }
 }
