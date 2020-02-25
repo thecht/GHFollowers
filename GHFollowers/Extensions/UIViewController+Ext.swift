@@ -9,8 +9,6 @@
 import UIKit
 import SafariServices
 
-
-
 extension UIViewController {
     
     func presentGFAlertOnMainThread(title: String, message: String, buttonTitle: String) {
@@ -27,6 +25,4 @@ extension UIViewController {
         safariVC.preferredControlTintColor = .systemGreen
         present(safariVC, animated: true)
     }
-    
-    
 }

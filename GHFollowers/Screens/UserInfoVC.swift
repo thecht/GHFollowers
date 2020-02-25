@@ -119,7 +119,6 @@ class UserInfoVC: UIViewController {
     @objc func dismissVC() {
         dismiss(animated: true)
     }
-
 }
 
 extension UserInfoVC: GFRepoItemVCDelegate {
